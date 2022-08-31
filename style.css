@@ -1,2 +1,39 @@
-font-family: 'Poppins', sans-serif;
-font-family: 'Staatliches', cursive;
+body{
+  background-color: #E5E5E5;
+  margin: 0 0;
+}
+
+body::before {
+  background-color: #ee5522;
+}
+
+h1, legend, h2, button {
+  font-family: 'Staatliches', cursive;
+  
+}
+
+p, .input-wrapper{
+  font-family: 'Poppins', sans-serif;
+}
+
+.my-form {
+  background-color: #FFFFFF;
+  width: 750px;
+  margin: auto;
+  padding: 64px;
+  border-radius: 20px 20px 0 0;
+}
+
+fieldset {
+  border-style: none;
+}
+
+.input-wrapper {
+  margin-top: 16px;
+}
+
+.input-wrapper input {
+  background-color: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
