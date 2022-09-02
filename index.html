@@ -17,7 +17,7 @@
       <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
     </header>
     <form class="my-form">
-      <fieldset>
+      <fieldset class="first-fieldset">
         <legend>Informações pessoais</legend>
         <div class="col-2">
           <div class="input-wrapper">
@@ -48,6 +48,23 @@
       <fieldset>
         <legend>Seus horários disponíveis</legend>
         <h2>Primeira mentoria</h2>
+        <div class="last-fieldset">
+          <div class="col-3">
+            <div class="input-wrapper">
+              <label for="mentorship-date">Data <span>(DD/MM/AAAA)</span></label>
+              <input type="date" name="mentorship-date" id="mentorship-date">
+            </div>
+            <div class="input-wrapper">
+              <label for="mentorship-first-begin">Das</label>
+              <input type="time" name="mentorship-first-begin" id="mentorship-first-begin">
+            </div>
+            <div class="input-wrapper">
+              <label for="mentorship-first-end">Até</label>
+              <input type="time" name="mentorship-first-end" id="mentorship-first-end">
+            </div>
+          </div>
+          <h2>Segunda mentoria</h2>
+        </div>
         <div class="col-3">
           <div class="input-wrapper">
             <label for="mentorship-date">Data <span>(DD/MM/AAAA)</span></label>
@@ -61,20 +78,7 @@
             <label for="mentorship-first-end">Até</label>
             <input type="time" name="mentorship-first-end" id="mentorship-first-end">
           </div>
-        <h2>Segunda mentoria</h2>
-        <div class="col-3">
-          <div class="input-wrapper">
-            <label for="mentorship-date">Data <span>(DD/MM/AAAA)</span></label>
-            <input type="date" name="mentorship-date" id="mentorship-date">
-          </div>
-          <div class="input-wrapper">
-            <label for="mentorship-first-begin">Das</label>
-            <input type="time" name="mentorship-first-begin" id="mentorship-first-begin">
-          </div>
-          <div class="input-wrapper">
-            <label for="mentorship-first-end">Até</label>
-            <input type="time" name="mentorship-first-end" id="mentorship-first-end">
-          </div>
+        </div>
       </fieldset>
     </form>
     <footer>
